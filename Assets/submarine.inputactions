@@ -1,1 +1,79 @@
-{}
+{
+    "name": "submarine",
+    "maps": [
+        {
+            "name": "movement",
+            "id": "9fa26d15-583b-42ef-b067-407368c0a143",
+            "actions": [
+                {
+                    "name": "bouger",
+                    "type": "Button",
+                    "id": "f36a15e8-43c7-4965-b8fe-75bab0e08774",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a4a88cde-858e-443b-b6e1-b8ab0f4c34a4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "clavier",
+                    "action": "bouger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cde31346-48c6-45e9-b30d-4b74b0d755e8",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "clavier",
+                    "action": "bouger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fa8fc00-a10f-4d7e-a215-4f8ec096a347",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "clavier",
+                    "action": "bouger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4223bb0d-6558-4d86-9b5e-0dc82b6ae45e",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "clavier",
+                    "action": "bouger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "clavier",
+            "bindingGroup": "clavier",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
