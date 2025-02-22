@@ -7,56 +7,87 @@
             "actions": [
                 {
                     "name": "bouger",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "f36a15e8-43c7-4965-b8fe-75bab0e08774",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "dash",
+                    "type": "Value",
+                    "id": "6c91e00f-c287-4dcd-b397-c34ed1e40244",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "a4a88cde-858e-443b-b6e1-b8ab0f4c34a4",
-                    "path": "<Keyboard>/w",
+                    "name": "2D Vector",
+                    "id": "c47abb9a-fc73-4098-9857-78e21566dd2e",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
-                    "groups": "clavier",
+                    "groups": "",
                     "action": "bouger",
-                    "isComposite": false,
+                    "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "cde31346-48c6-45e9-b30d-4b74b0d755e8",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "clavier",
-                    "action": "bouger",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9fa8fc00-a10f-4d7e-a215-4f8ec096a347",
+                    "name": "up",
+                    "id": "e7351d68-7e88-4ce2-a8b2-39e0fbb2bb52",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "clavier",
                     "action": "bouger",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "4223bb0d-6558-4d86-9b5e-0dc82b6ae45e",
+                    "name": "down",
+                    "id": "ad32f367-8122-4073-8074-7fdb6de9c0c2",
                     "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "clavier",
                     "action": "bouger",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "e7485d95-b072-4866-8955-b643fc522f6c",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "clavier",
+                    "action": "bouger",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "3c2c93b2-a7ac-4995-b987-b3cfccfb7001",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "clavier",
+                    "action": "bouger",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "69b27914-3dbe-43c5-8d8b-7f49814537f9",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "clavier",
+                    "action": "dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
